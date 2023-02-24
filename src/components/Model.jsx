@@ -163,8 +163,8 @@ function init(model_path, model_name) {
     orbit.enabled = !event.value;
   });
 
-  addModel(model_path,model_name)
-  scene.remove(tran)
+  //addModel(model_path,model_name)
+  //scene.remove(tran)
   render();
   window.addEventListener('resize', onWindowResize);
 }

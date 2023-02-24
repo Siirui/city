@@ -28,7 +28,9 @@ export default function ImgMediaCard(props) {
   // console.log(props)
   const model_base_url=props.myClassName
   const img_base_url=props.imgBaseUrl
-  const money = props.model.money
+    const money = props.model.money
+    const carbon = props.model.carbon
+    const satisfy = props.model.satisfy
   const colors=props.model.colors
   const paths=props.model.model_paths
   const names=props.model.model_names
@@ -37,7 +39,11 @@ export default function ImgMediaCard(props) {
   const [model_path, setModelPath]=useState(props.model.model_paths[0])
   const [model_name, setModelName]=useState(props.model.model_names[0])
   const [myColor, setColor] = React.useState(colors[0]);
-  const [img_url,setImgUrl] = React.useState()
+    const [img_url, setImgUrl] = React.useState()
+    const [myMoney, setMoney] = React.useState(money[0])
+    const [myCarbon, setCarbon] = React.useState(carbon[0])
+    const [mySatisfy, setSatisfy] = React.useState(satisfy[0])
+
 
   /**
    * 通过useRef获取到Dialog的点击事件
@@ -56,10 +62,9 @@ export default function ImgMediaCard(props) {
    * @param model_name
    * @param money
    */
-  const addModel=(model_path,model_name,money)=>{
-    props.addModel(model_path,model_name,money);
+  const addModel=(model_path, model_name, money, carbon, satisfy)=>{
+    props.addModel(model_path, model_name, money, carbon, satisfy);
   }
-
 
 
   const getIndex=(color)=>{
@@ -81,13 +86,17 @@ export default function ImgMediaCard(props) {
    */
   useEffect(()=>{
     setModelPath(paths[getIndex(myColor)])
-    setModelName(names[getIndex(myColor)])
-    setImgUrl(urls[getIndex(myColor)])
+      setModelName(names[getIndex(myColor)])
+      setImgUrl(urls[getIndex(myColor)])
+      setMoney(money[getIndex(myColor)])
+      setCarbon(carbon[getIndex(myColor)])
+      setSatisfy(satisfy[getIndex(myColor)])
+
     console.log(myColor)
     console.log(getIndex(myColor))
   },[myColor])
   const handleChangeColors = (event) => {
-    setColor(event.target.value);
+      setColor(event.target.value);
     // setClass(myModels[getIndex(myLabel)]);
   };
   return (
@@ -127,7 +136,7 @@ export default function ImgMediaCard(props) {
           <OutlineButton onClick={()=>{
             openDialog()
           }}>详情</OutlineButton>
-          <Button onClick={()=>{addModel(model_base_url+model_path,model_name,money)}} variant={"contained"} size={"large"} style={{margin:'0 20px'}}>
+          <Button onClick={()=>{addModel(model_base_url+model_path,model_name,myMoney,myCarbon,mySatisfy)}} variant={"contained"} size={"large"} style={{margin:'0 20px'}}>
           {/*<Button onClick={()=>{}} variant={"contained"} size={"large"} style={{margin:'0 20px'}}>*/}
             置入
           </Button>

@@ -83,7 +83,9 @@ function PublishProject(props) {
   const [myScene, setScene] = useState(scene_lables[0])
   const [price, setPrice] = useState(0)
   const [CO2, setCO2] = useState(0)
-  const [Sat, setSat] = useState(0)
+    const [Sat, setSat] = useState(0)
+    const [total, SetTotal] = useState(0)
+    const [count, SetCount] = useState(1)
     
   /**
    * 第一个Ref是用来获取Model组件当中的函数
@@ -102,8 +104,11 @@ function PublishProject(props) {
       setPrice(price + money)
       setCO2(CO2 + carbon)
       setSat(Sat + satisfy)
+      SetCount(count + 1)
+      SetTotal(Sat/count/5*73.06+(1200-CO2/count)/1200*18.84+(3000-price/count)/3000*8.1)
       console.log("addModel调用")
   }
+
 
   /**
    * 改变场景
@@ -163,7 +168,7 @@ function PublishProject(props) {
   //
   // )
   return (
-      <Box sx={{flexGrow: 1, display: 'flex', marginTop: 3, marginLeft:25}}>
+      <Box sx={{flexGrow: 1, display: 'flex', marginTop: 3, marginLeft:5}}>
         <Box
             sx={{
               display: 'flex',
@@ -176,8 +181,22 @@ function PublishProject(props) {
                 maxHeight: 900,
               },
             }}
-        >
-          <Paper id={"model-paper"} elevation={3} sx={{borderRadius: 5}}>
+          >
+              <Paper elevation={3} sx={{borderRadius: 5, height:"17%", width:"12%"}}>
+            <Typography
+                variant="body1"
+                noWrap
+                component="div"
+                sx={{mr: 2, display: 'flex', margin: '5px 10px'}}
+            >
+                      预算：{price}<br></br>
+                      碳排放：{CO2.toFixed(2)}<br></br>
+                      居民满意度：{Sat.toFixed(2)}<br></br>
+                      总分：{total.toFixed(2)}
+            </Typography>
+              </Paper>
+
+            <Paper id={"model-paper"} elevation={3} sx={{borderRadius: 5}}>
             <Container>
               <Box id={"model-box"} sx={{display: 'flex', alignItems: 'flex-end', padding: '0 160px 10px 160px'}}>
                 <ModeEditIcon sx={{color: 'action.active', mr: 1, my: 0.5, display: 'flex'}}/>
@@ -216,17 +235,17 @@ function PublishProject(props) {
             {/*          style={{color: '#8d6e63', border: '1px solid #8d6e63', marginLeft: 200}}>删除</Button>*/}
             {/*</Typography>*/}
             
-                  <Typography
+                  {/* <Typography
                 variant="body1"
                 noWrap
                 component="div"
                 sx={{mr: 2, display: 'flex', margin: '5px 10px'}}
             >
-                      预算：{price}&nbsp;碳排放：{CO2}&nbsp;居民满意度：{Sat}&nbsp;总分：{100}
-            </Typography>
+                      预算：{price}&nbsp;碳排放：{CO2.toFixed(2)}&nbsp;居民满意度：{Sat.toFixed(2)}&nbsp;总分：{total.toFixed(2)}
+            </Typography> */}
               </Paper>
               
-          <Paper elevation={3} sx={{borderRadius: 5}}>
+            <Paper elevation={3} sx={{borderRadius: 5, width:"24%"}}>
             <Box id={"model-lib"} sx={{display: 'flex', alignItems: 'flex-end', padding: '15px 20px'}}>
               <FormControl variant="standard" sx={{m: 1, minWidth: 160}}>
                 <InputLabel id="simple-select-standard-label">分类</InputLabel>
@@ -277,7 +296,9 @@ function PublishProject(props) {
                       居民满意度：{Sat} <br></br>
                       总分：{100}
             </Typography> */}
-          </Paper>
+              </Paper>
+              
+            
         </Box>
       </Box>)
 }

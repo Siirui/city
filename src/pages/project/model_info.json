@@ -1,97 +1,121 @@
 {
-  "model_data": [
-    {
-      "myClassName": "models/moxing/gonggaolanhezhanban/",
-      "imgBaseUrl": "images/xuanran/gonggaolanhezhanban/",
-      "models": [
-        {
-          "name": "公告栏",
-          "colors": ["金属色"],
-          "model_paths": ["gonggaolan/Steel/"],
-          "model_names": ["263xcl"],
-          "pic_urls": ["gonggaolan/Steel/gonggaolan1.png"]
-            
-        },
-        {
-          "name": "展板",
-          "colors": ["木制"],
-          "model_paths": ["zhanban/wooden/"],
-          "model_names": ["bulletin+board (1)"],
-          "pic_urls": ["zhanban/wooden/zhanban1.png"]
-        }]
-    },
-    {
-      "myClassName": "models/moxing/gongnenglei/",
-      "imgBaseUrl": "images/xuanran/gongnenglei/",
-      "models": [
-        {
-          "name": "充电桩",
-          "colors": ["灰色"],
-          "model_paths": ["charge/grey/"],
-          "model_names": ["167"],
-          "pic_urls": ["charge/grey/charge.png"]
-        },
-        {
-          "name": "储物柜",
-          "colors": ["棕色", "灰色", "金属色", "木制"],
-          "model_paths": ["chuwugui/brown/", "chuwugui/grey/", "chuwugui/steel/", "chuwugui/wooden/"],
-          "model_names": ["book+chest", "cp_sport_1950_1200_500_2015_08_22", "Kids+toys", "Wooden+bookcase+decor"],
-          "pic_urls": ["chuwugui/brown/guizi1.png", "chuwugui/grey/guizi4.png", "chuwugui/steel/guizi2.png", "chuwugui/wooden/guizi3.png"]
-        },
-        {
-          "name": "交互屏幕",
-          "colors": ["黑色"],
-          "model_paths": ["jiaohupingmu/black/"],
-          "model_names": ["info+kiosk+with+55+inch+horizontal+touch+screen+panel"],
-          "pic_urls": ["jiaohupingmu/black/jiaohuping.png"]
-        },
-        {
-          "name": "街灯",
-          "colors": ["蓝色", "黄铜色", "棕色", "绿色", "紫色"],
-          "model_paths": ["streetlight/blue/", "streetlight/Brass/", "streetlight/brown/", "streetlight/green/", "streetlight/purple/"],
-          "model_names": ["street+lamps", "Antique+Lamp", "street+lamps", "street+lamps", "Lamp-Flowers"],
-          "pic_urls": ["streetlight/blue/light3.png", "streetlight/Brass/light1.png", "streetlight/brown/light5.png", "streetlight/green/light4.png", "streetlight/purple/light2.png"]
-        },
-        {
-          "name": "医疗箱",
-          "colors": ["白色"],
-          "model_paths": ["yiliaobox/white/"],
-          "model_names": ["yiliaobox"],
-          "pic_urls": ["yiliaobox/white/yiliaobox.png"]
-        }
-      ]
-    },
-    {
-      "myClassName": "models/moxing/lvhua/",
-      "imgBaseUrl": "images/xuanran/lvhua/",
-      "models": [
-        {
-          "name": "花饰",
-          "colors": ["粉色"],
-          "model_paths": ["flower/pink/"],
-          "model_names": ["flower"],
-          "pic_urls": ["flower/pink/flower1.png"]
-        },
-        {
-          "name": "草坪",
-          "colors": ["绿色"],
-          "model_paths": ["grass/green/"],
-          "model_names": ["grass"],
-          "pic_urls": ["grass/green/grass.png"]},
-        {
-          "name":"绿化墙",
-          "colors": ["木制"],
-          "model_paths": ["greenwall/wooden/"],
-          "model_names": ["Plant+wall (1)"],
-          "pic_urls": ["greenwall/wooden/greenwall.png"]
-        },
-        {
-          "name": "灯饰墙",
-          "colors": ["木制"],
-          "model_paths": ["lightwall/wooden/"],
-          "model_names": ["plant+wall+pannel"],
-          "pic_urls": ["lightwall/wooden/lightwall.png"]
-        }
-      ]
-    }]
-}
+    "model_data": [
+      {
+        "myClassName": "models/moxing/gonggaolanhezhanban/",
+        "imgBaseUrl": "images/xuanran/gonggaolanhezhanban/",
+        "models": [
+          {
+            "name": "公告栏",
+            "colors": ["金属色"],
+            "model_paths": ["gonggaolan/Steel/"],
+            "model_names": ["263xcl"],
+            "pic_urls": ["gonggaolan/Steel/gonggaolan1.png"],
+            "money": [800],
+            "carbon": [223],
+            "satisfy": [4.5]
+          },
+          {
+            "name": "展板",
+            "colors": ["木制"],
+            "model_paths": ["zhanban/wooden/"],
+            "model_names": ["bulletin+board (1)"],
+            "pic_urls": ["zhanban/wooden/zhanban1.png"],
+            "money": [30],
+            "carbon": [0],
+            "satisfy": [1.6]
+          }]
+      },
+      {
+        "myClassName": "models/moxing/gongnenglei/",
+        "imgBaseUrl": "images/xuanran/gongnenglei/",
+        "models": [
+          {
+            "name": "充电桩",
+            "colors": ["改性塑料"],
+            "model_paths": ["charge/grey/"],
+            "model_names": ["167"],
+            "pic_urls": ["charge/grey/charge.png"],
+            "money": [200],
+            "carbon": [20.96],
+            "satisfy": [3.5]
+          },
+          {
+            "name": "储物柜",
+            "colors": ["铝合金", "木制"],
+            "model_paths": ["chuwugui/steel/", "chuwugui/wooden/"],
+            "model_names": ["Kids+toys", "Wooden+bookcase+decor"],
+            "pic_urls": ["chuwugui/steel/guizi2.png", "chuwugui/wooden/guizi3.png"],
+            "money": [2700,100],
+            "carbon": [22.3,0],
+            "satisfy": [4.1,3.6]
+  
+          },
+          {
+            "name": "太阳能街灯",
+            "colors": ["铝合金"],
+            "model_paths": ["streetlight/blue/"],
+            "model_names": ["street+lamps"],
+            "pic_urls": ["streetlight/blue/light3.png"],
+            "money": [1320],
+            "carbon": [1000.1],
+            "satisfy": [4.3]
+          },
+          {
+            "name": "医疗箱",
+            "colors": ["铝合金"],
+            "model_paths": ["yiliaobox/white/"],
+            "model_names": ["yiliaobox"],
+            "pic_urls": ["yiliaobox/white/yiliaobox.png"],
+            "money": [100],
+            "carbon": [34.2],
+            "satisfy": [4.1]
+          }
+        ]
+      },
+      {
+        "myClassName": "models/moxing/lvhua/",
+        "imgBaseUrl": "images/xuanran/lvhua/",
+        "models": [
+          {
+            "name": "花饰",
+            "colors": ["粉色"],
+            "model_paths": ["flower/pink/"],
+            "model_names": ["flower"],
+            "pic_urls": ["flower/pink/flower1.png"],
+            "money": [35],
+            "carbon": [0],
+            "satisfy": [3.6]
+          },
+          {
+            "name": "草坪",
+            "colors": ["绿色"],
+            "model_paths": ["grass/green/"],
+            "model_names": ["grass"],
+            "pic_urls": ["grass/green/grass.png"],
+            "money": [15],
+            "carbon": [0],
+            "satisfy": [3.2]
+          },
+          {
+            "name":"绿化墙",
+            "colors": ["木制"],
+            "model_paths": ["greenwall/wooden/"],
+            "model_names": ["Plant+wall (1)"],
+            "pic_urls": ["greenwall/wooden/greenwall.png"],
+            "money": [20],
+            "carbon": [0],
+            "satisfy": [4.3]
+          },
+          {
+            "name": "灯饰墙",
+            "colors": ["玻璃"],
+            "model_paths": ["lightwall/wooden/"],
+            "model_names": ["plant+wall+pannel"],
+            "pic_urls": ["lightwall/wooden/lightwall.png"],
+            "money": [5],
+            "carbon": [0],
+            "satisfy": [4.3]
+          }
+        ]
+      }]
+  }
