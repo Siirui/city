@@ -182,15 +182,15 @@ function PublishProject(props) {
               },
             }}
           >
-              <Paper elevation={3} sx={{borderRadius: 5, height:"17%", width:"12%"}}>
+              <Paper elevation={3} sx={{borderRadius: 5, height:"17%", width:"14%"}}>
             <Typography
                 variant="body1"
                 noWrap
                 component="div"
                 sx={{mr: 2, display: 'flex', margin: '5px 10px'}}
             >
-                      预算：{price}<br></br>
-                      碳排放：{CO2.toFixed(2)}<br></br>
+                      预算：{price}元<br></br>
+                      碳排放：{CO2.toFixed(2)}kg<br></br>
                       居民满意度：{Sat.toFixed(2)}<br></br>
                       总分：{total.toFixed(2)}
             </Typography>
