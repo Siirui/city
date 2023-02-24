@@ -9,16 +9,15 @@
           "colors": ["金属色"],
           "model_paths": ["gonggaolan/Steel/"],
           "model_names": ["263xcl"],
-          "pic_urls": ["gonggaolan/Steel/gonggaolan1.png"],
-          "money": 123456
+          "pic_urls": ["gonggaolan/Steel/gonggaolan1.png"]
+            
         },
         {
           "name": "展板",
           "colors": ["木制"],
           "model_paths": ["zhanban/wooden/"],
           "model_names": ["bulletin+board (1)"],
-          "pic_urls": ["zhanban/wooden/zhanban1.png"],
-          "money": 100.123
+          "pic_urls": ["zhanban/wooden/zhanban1.png"]
         }]
     },
     {

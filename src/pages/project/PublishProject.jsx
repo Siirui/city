@@ -82,6 +82,9 @@ function PublishProject(props) {
 
   const [myScene, setScene] = useState(scene_lables[0])
   const [price, setPrice] = useState(0)
+  const [CO2, setCO2] = useState(0)
+  const [Sat, setSat] = useState(0)
+    
   /**
    * 第一个Ref是用来获取Model组件当中的函数
    * @type {React.MutableRefObject<undefined>}
@@ -94,9 +97,11 @@ function PublishProject(props) {
    * @param model_name
    * @param money
    */
-  const addModel = (model_path, model_name, money) => {
+  const addModel = (model_path, model_name, money, carbon, satisfy) => {
     _ref.current.addModel(model_path, model_name);
-     setPrice(price + money)
+      setPrice(price + money)
+      setCO2(CO2 + carbon)
+      setSat(Sat + satisfy)
       console.log("addModel调用")
   }
 
@@ -210,6 +215,15 @@ function PublishProject(props) {
             {/*  <Button variant={"outlined"} size={"medium"}*/}
             {/*          style={{color: '#8d6e63', border: '1px solid #8d6e63', marginLeft: 200}}>删除</Button>*/}
             {/*</Typography>*/}
+            
+                  <Typography
+                variant="body1"
+                noWrap
+                component="div"
+                sx={{mr: 2, display: 'flex', margin: '5px 10px'}}
+            >
+                      预算：{price}&nbsp;碳排放：{CO2}&nbsp;居民满意度：{Sat}&nbsp;总分：{100}
+            </Typography>
               </Paper>
               
           <Paper elevation={3} sx={{borderRadius: 5}}>
@@ -252,16 +266,17 @@ function PublishProject(props) {
                 </FixedSizeList>
               </Box>
             </Container>
-            <Typography
-                variant="h6"
+            {/* <Typography
+                variant="body1"
                 noWrap
                 component="div"
                 sx={{mr: 2, display: 'flex', margin: '5px 10px'}}
             >
-              /!*总造价: {price}RMB*!/
-              <Button variant={"outlined"} size={"medium"}
-                      style={{color: '#8d6e63', border: '1px solid #8d6e63', marginLeft: 100}}>置入</Button>
-            </Typography>
+                      预算: {price} <br></br>
+                      碳排放: {CO2} <br></br>
+                      居民满意度：{Sat} <br></br>
+                      总分：{100}
+            </Typography> */}
           </Paper>
         </Box>
       </Box>)
