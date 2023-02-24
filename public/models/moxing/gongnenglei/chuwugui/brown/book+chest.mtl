@@ -1,0 +1,298 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Metal_Rough
+Ka 0.000000 0.000000 0.000000
+Kd 0.815686 0.662745 0.439216
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Metal_Rough.jpg
+
+newmtl Wood_Floor_Light
+Ka 0.000000 0.000000 0.000000
+Kd 0.882353 0.819608 0.713725
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Wood_Floor_Light.jpg
+
+newmtl Redwood
+Ka 0.000000 0.000000 0.000000
+Kd 0.654902 0.396078 0.321569
+Ks 0.330000 0.330000 0.330000
+
+newmtl Cladding_Siding_White
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White.jpg
+
+newmtl Cladding_Siding_White1_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White1_.jpg
+
+newmtl Beige
+Ka 0.000000 0.000000 0.000000
+Kd 0.925490 0.827451 0.631373
+Ks 0.330000 0.330000 0.330000
+
+newmtl Cladding_Siding_White2_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White2_.jpg
+
+newmtl Dark_Brown
+Ka 0.000000 0.000000 0.000000
+Kd 0.305882 0.247059 0.168627
+Ks 0.330000 0.330000 0.330000
+
+newmtl Cladding_Siding_White3_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White3_.jpg
+
+newmtl Cladding_Siding_White4_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White4_.jpg
+
+newmtl Cladding_Siding_White5_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White5_.jpg
+
+newmtl Cladding_Siding_White6_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White6_.jpg
+
+newmtl Cladding_Siding_White7_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White7_.jpg
+
+newmtl Cladding_Siding_White8_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White8_.jpg
+
+newmtl Cladding_Siding_White9_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White9_.jpg
+
+newmtl Yellow
+Ka 0.000000 0.000000 0.000000
+Kd 0.952941 0.901961 0.321569
+Ks 0.330000 0.330000 0.330000
+
+newmtl Cladding_Siding_White10_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White10_.jpg
+
+newmtl Cladding_Siding_White11_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White11_.jpg
+
+newmtl Violet
+Ka 0.000000 0.000000 0.000000
+Kd 0.278431 0.196078 0.415686
+Ks 0.330000 0.330000 0.330000
+
+newmtl Cladding_Siding_White12_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White12_.jpg
+
+newmtl WarmGray8
+Ka 0.000000 0.000000 0.000000
+Kd 0.380392 0.333333 0.298039
+Ks 0.330000 0.330000 0.330000
+
+newmtl Cladding_Siding_White13_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White13_.jpg
+
+newmtl CoolGray4
+Ka 0.000000 0.000000 0.000000
+Kd 0.882353 0.886275 0.901961
+Ks 0.330000 0.330000 0.330000
+
+newmtl Cladding_Siding_White14_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White14_.jpg
+
+newmtl Gold
+Ka 0.000000 0.000000 0.000000
+Kd 0.803922 0.698039 0.094118
+Ks 0.330000 0.330000 0.330000
+
+newmtl Cladding_Siding_White15_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White15_.jpg
+
+newmtl Blue
+Ka 0.000000 0.000000 0.000000
+Kd 0.027451 0.400000 0.694118
+Ks 0.330000 0.330000 0.330000
+
+newmtl Cladding_Siding_White16_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White16_.jpg
+
+newmtl Burnt_Sienna
+Ka 0.000000 0.000000 0.000000
+Kd 0.541176 0.313725 0.298039
+Ks 0.330000 0.330000 0.330000
+
+newmtl Cladding_Siding_White17_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White17_.jpg
+
+newmtl Olive
+Ka 0.000000 0.000000 0.000000
+Kd 0.447059 0.501961 0.192157
+Ks 0.330000 0.330000 0.330000
+
+newmtl Cladding_Siding_White18_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White18_.jpg
+
+newmtl Red
+Ka 0.000000 0.000000 0.000000
+Kd 0.909804 0.333333 0.325490
+Ks 0.330000 0.330000 0.330000
+
+newmtl Cladding_Siding_White19_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White19_.jpg
+
+newmtl Cladding_Siding_White20_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White20_.jpg
+
+newmtl Cladding_Siding_White21_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White21_.jpg
+
+newmtl Cladding_Siding_White22_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White22_.jpg
+
+newmtl Cladding_Siding_White23_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White23_.jpg
+
+newmtl Color_H08
+Ka 0.000000 0.000000 0.000000
+Kd 0.317647 0.800000 0.800000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Cladding_Siding_White24_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White24_.jpg
+
+newmtl Cladding_Siding_White25_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White25_.jpg
+
+newmtl Cladding_Siding_White26_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White26_.jpg
+
+newmtl Color_B12
+Ka 0.000000 0.000000 0.000000
+Kd 0.600000 0.239216 0.117647
+Ks 0.330000 0.330000 0.330000
+
+newmtl Color_A02
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.196078 0.196078
+Ks 0.330000 0.330000 0.330000
+
+newmtl Cladding_Siding_White27_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White27_.jpg
+
+newmtl Cladding_Siding_White28_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White28_.jpg
+
+newmtl Color_F06
+Ka 0.000000 0.000000 0.000000
+Kd 0.400000 0.800000 0.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Cladding_Siding_White29_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Cladding_Siding_White29_.jpg
+
+newmtl Color_B02
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.396078 0.196078
+Ks 0.330000 0.330000 0.330000
+
+newmtl Color_I07
+Ka 0.000000 0.000000 0.000000
+Kd 0.156863 0.156863 0.800000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Polished_Concrete_New
+Ka 0.000000 0.000000 0.000000
+Kd 0.784314 0.784314 0.796078
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Polished_Concrete_New.jpg
+
+newmtl Carpet_Berber_Multi
+Ka 0.000000 0.000000 0.000000
+Kd 0.709804 0.662745 0.627451
+Ks 0.330000 0.330000 0.330000
+map_Kd book+chest/Carpet_Berber_Multi.jpg
+

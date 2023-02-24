@@ -1,0 +1,34 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Metal_Rough
+Ka 0.000000 0.000000 0.000000
+Kd 0.431373 0.317647 0.145098
+Ks 0.330000 0.330000 0.330000
+map_Kd Plant+wall (1)/Metal_Rough.jpg
+
+newmtl Wood_Floor_Light
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.690196 0.498039
+Ks 0.330000 0.330000 0.330000
+map_Kd Plant+wall (1)/Wood_Floor_Light.jpg
+
+newmtl Asphalt_New
+Ka 0.000000 0.000000 0.000000
+Kd 0.545098 0.666667 0.160784
+Ks 0.330000 0.330000 0.330000
+map_Kd Plant+wall (1)/Asphalt_New.jpg
+
+newmtl Spider_leaf_clean
+Ka 0.000000 0.000000 0.000000
+Kd 0.349020 0.396078 0.058824
+Ks 0.330000 0.330000 0.330000
+map_Kd Plant+wall (1)/Spider_leaf_clean.png
+
+newmtl _8
+Ka 0.000000 0.000000 0.000000
+Kd 0.368627 0.529412 0.286275
+Ks 0.330000 0.330000 0.330000
+map_Kd Plant+wall (1)/_8.jpg
+

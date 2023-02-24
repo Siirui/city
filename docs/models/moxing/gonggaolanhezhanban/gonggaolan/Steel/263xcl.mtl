@@ -1,0 +1,51 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Metal_Corrogated_Shiny
+Ka 0.000000 0.000000 0.000000
+Kd 0.368627 0.368627 0.368627
+Ks 0.330000 0.330000 0.330000
+map_Kd 263xcl/Metal_Corrogated_Shiny.jpg
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 0.890196 0.882353 0.870588
+Ks 0.330000 0.330000 0.330000
+
+newmtl Blacktop_New
+Ka 0.000000 0.000000 0.000000
+Kd 0.839216 0.803922 0.788235
+Ks 0.330000 0.330000 0.330000
+map_Kd 263xcl/Blacktop_New.jpg
+
+newmtl Blacktop_Old_01
+Ka 0.000000 0.000000 0.000000
+Kd 0.886275 0.870588 0.874510
+Ks 0.330000 0.330000 0.330000
+map_Kd 263xcl/Blacktop_Old_01.jpg
+
+newmtl Polished_Concrete_New
+Ka 0.000000 0.000000 0.000000
+Kd 0.960784 0.941176 0.933333
+Ks 0.330000 0.330000 0.330000
+map_Kd 263xcl/Polished_Concrete_New.jpg
+
+newmtl Asphalt_New
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.780392 0.745098
+Ks 0.330000 0.330000 0.330000
+map_Kd 263xcl/Asphalt_New.jpg
+
+newmtl _Metal_Rough_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.654902 0.427451
+Ks 0.330000 0.330000 0.330000
+map_Kd 263xcl/_Metal_Rough_1.jpg
+
+newmtl _Polished_Concrete_New_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.784314 0.784314 0.796078
+Ks 0.330000 0.330000 0.330000
+map_Kd 263xcl/_Polished_Concrete_New_1.jpg
+

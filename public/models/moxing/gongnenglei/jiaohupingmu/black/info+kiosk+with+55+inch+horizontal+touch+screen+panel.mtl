@@ -1,0 +1,28 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Polished_Concrete_New
+Ka 0.000000 0.000000 0.000000
+Kd 0.784314 0.784314 0.796078
+Ks 0.330000 0.330000 0.330000
+map_Kd info+kiosk+with+55+inch+horizontal+touch+screen+panel/Polished_Concrete_New.jpg
+
+newmtl _Metal_Rough_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.654902 0.427451
+Ks 0.330000 0.330000 0.330000
+map_Kd info+kiosk+with+55+inch+horizontal+touch+screen+panel/_Metal_Rough_1.jpg
+
+newmtl Metal_Rough
+Ka 0.000000 0.000000 0.000000
+Kd 0.172549 0.180392 0.184314
+Ks 0.330000 0.330000 0.330000
+map_Kd info+kiosk+with+55+inch+horizontal+touch+screen+panel/Metal_Rough.jpg
+
+newmtl first_floor_large_2
+Ka 0.000000 0.000000 0.000000
+Kd 0.603922 0.600000 0.603922
+Ks 0.330000 0.330000 0.330000
+map_Kd info+kiosk+with+55+inch+horizontal+touch+screen+panel/first_floor_large_2.jpg
+
