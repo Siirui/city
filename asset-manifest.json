@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/city/static/css/main.478d9d94.css",
+    "main.js": "/city/static/js/main.58a7b5f4.js",
+    "static/media/login.svg": "/city/static/media/login.103b30a19498eb5151961192a5b3e76b.svg",
+    "index.html": "/city/index.html",
+    "main.478d9d94.css.map": "/city/static/css/main.478d9d94.css.map",
+    "main.58a7b5f4.js.map": "/city/static/js/main.58a7b5f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.478d9d94.css",
+    "static/js/main.58a7b5f4.js"
+  ]
+}

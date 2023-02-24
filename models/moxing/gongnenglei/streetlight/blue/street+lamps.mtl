@@ -1,0 +1,36 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Metal_Rough
+Ka 0.000000 0.000000 0.000000
+Kd 0.815686 0.662745 0.439216
+Ks 0.330000 0.330000 0.330000
+map_Kd street+lamps/Metal_Rough.jpg
+
+newmtl Polished_Concrete_New
+Ka 0.000000 0.000000 0.000000
+Kd 0.784314 0.784314 0.796078
+Ks 0.330000 0.330000 0.330000
+
+newmtl Metal
+Ka 0.000000 0.000000 0.000000
+Kd 0.388235 0.388235 0.388235
+Ks 0.330000 0.330000 0.330000
+
+newmtl Light
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.937255 0.835294
+Ks 0.330000 0.330000 0.330000
+
+newmtl _Metal_Rough_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.545098 0.584314 0.678431
+Ks 0.330000 0.330000 0.330000
+map_Kd street+lamps/_Metal_Rough_1.jpg
+
+newmtl Metal2
+Ka 0.000000 0.000000 0.000000
+Kd 0.419608 0.443137 0.482353
+Ks 0.330000 0.330000 0.330000
+

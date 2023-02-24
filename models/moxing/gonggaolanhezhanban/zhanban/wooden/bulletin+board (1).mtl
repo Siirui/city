@@ -1,0 +1,57 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Metal_Rough
+Ka 0.000000 0.000000 0.000000
+Kd 0.815686 0.662745 0.439216
+Ks 0.330000 0.330000 0.330000
+map_Kd bulletin+board (1)/Metal_Rough.jpg
+
+newmtl Polished_Concrete_New
+Ka 0.000000 0.000000 0.000000
+Kd 0.784314 0.784314 0.796078
+Ks 0.330000 0.330000 0.330000
+map_Kd bulletin+board (1)/Polished_Concrete_New.jpg
+
+newmtl postcard_from_paris
+Ka 0.000000 0.000000 0.000000
+Kd 0.929412 0.925490 0.933333
+Ks 0.330000 0.330000 0.330000
+map_Kd bulletin+board (1)/postcard_from_paris.jpg
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Drewno_Wisnia_Oryginalna
+Ka 0.000000 0.000000 0.000000
+Kd 0.827451 0.635294 0.427451
+Ks 0.330000 0.330000 0.330000
+map_Kd bulletin+board (1)/Drewno_Wisnia_Oryginalna.jpg
+
+newmtl cork
+Ka 0.000000 0.000000 0.000000
+Kd 0.913725 0.811765 0.705882
+Ks 0.330000 0.330000 0.330000
+map_Kd bulletin+board (1)/cork.jpg
+
+newmtl Screen_shot_2013_09_10_at_19_38_02
+Ka 0.000000 0.000000 0.000000
+Kd 0.603922 0.600000 0.603922
+Ks 0.330000 0.330000 0.330000
+map_Kd bulletin+board (1)/Screen_shot_2013_09_10_at_19_38_02.jpg
+
+newmtl M_04_timetable
+Ka 0.000000 0.000000 0.000000
+Kd 0.505882 0.435294 0.364706
+Ks 0.330000 0.330000 0.330000
+map_Kd bulletin+board (1)/M_04_timetable.jpg
+
+newmtl _____20220305112556
+Ka 0.000000 0.000000 0.000000
+Kd 0.584314 0.482353 0.439216
+Ks 0.330000 0.330000 0.330000
+map_Kd bulletin+board (1)/_____20220305112556.png
+

@@ -1,0 +1,28 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Metal_Rough
+Ka 0.000000 0.000000 0.000000
+Kd 0.905882 0.827451 0.709804
+Ks 0.330000 0.330000 0.330000
+map_Kd grass/Metal_Rough.jpg
+
+newmtl Vegetation_Grass
+Ka 0.000000 0.000000 0.000000
+Kd 0.564706 0.627451 0.356863
+Ks 0.330000 0.330000 0.330000
+map_Kd grass/Vegetation_Grass.jpg
+
+newmtl _Grass_Dark_Green_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.415686 0.615686 0.215686
+Ks 0.330000 0.330000 0.330000
+map_Kd grass/_Grass_Dark_Green_1.jpg
+
+newmtl _Vegetation_Grass_Artificial_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.384314 0.549020 0.290196
+Ks 0.330000 0.330000 0.330000
+map_Kd grass/_Vegetation_Grass_Artificial_1.jpg
+
